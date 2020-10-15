@@ -614,7 +614,8 @@
 //#define MARKFORGED_XY  // MarkForged. See https://reprap.org/forum/read.php?152,504042
 
 //===========================================================================
-//============================== Endstop Settings ===========================
+//============================== 
+Settings ===========================
 //===========================================================================
 
 // @section homing
@@ -1137,7 +1138,8 @@
 #define Z_MAX_POS 250
 
 /**
- * Software Endstops
+ * 
+ s
  *
  * - Prevent moves outside the set machine bounds.
  * - Individual axes can be disabled, if desired.
@@ -1162,7 +1164,7 @@
 #endif
 
 #if EITHER(MIN_SOFTWARE_ENDSTOPS, MAX_SOFTWARE_ENDSTOPS)
-  //#define SOFT_ENDSTOPS_MENU_ITEM  // Enable/Disable software endstops from the LCD
+  #define SOFT_ENDSTOPS_MENU_ITEM  // Enable/Disable software endstops from the LCD
 #endif
 
 /**
